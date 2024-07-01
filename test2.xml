@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Automata type='DFA'>
+	<Transitions numberOfTrans='14'>
+		<transition source='q0' destination='q1' label='1'/>
+		<transition source='q0' destination='q2' label='0'/>
+		<transition source='q1' destination='q5' label='0'/>
+		<transition source='q1' destination='q5' label='1'/>
+		<transition source='q2' destination='q3' label='0'/>
+		<transition source='q2' destination='q4' label='1'/>
+		<transition source='q3' destination='q3' label='0'/>
+		<transition source='q3' destination='q4' label='1'/>
+		<transition source='q4' destination='q5' label='0'/>
+		<transition source='q4' destination='q5' label='1'/>
+		<transition source='q5' destination='q6' label='0'/>
+		<transition source='q5' destination='q5' label='1'/>
+		<transition source='q6' destination='q6' label='0'/>
+		<transition source='q6' destination='q6' label='1'/>
+	</Transitions>
+	<States numberOfStates='7'>
+		<FinalStates numberOfFinalStates='4'>
+			<finalState name='q1'/>
+			<finalState name='q2'/>
+			<finalState name='q4'/>
+			<finalState name='q3'/>
+		</FinalStates>
+		<state name='q0' />
+		<state name='q1' />
+		<state name='q2' />
+		<state name='q3' />
+		<state name='q4' />
+		<state name='q5' />
+		<state name='q6' />
+		<initialState name='q0'/>
+	</States>
+	<Alphabets numberOfAlphabets='2'>
+		<alphabet letter='1'/>
+		<alphabet letter='0'/>
+	</Alphabets>
+</Automata>
